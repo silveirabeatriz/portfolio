@@ -1,0 +1,30 @@
+@keyframes iconhand{
+  0%,50%{
+    transform: translate3d(0,-6px,0) rotate(0deg);
+  }
+  60%{
+    transform:  translate3d(0,-6px,0) rotate(-15deg);
+  }
+  70%{
+    transform:  translate3d(0,-6px,0) rotate(40deg);
+  }
+  80%{
+    transform:  translate3d(0,-6px,0) rotate(-15deg);
+  }
+  90%{
+    transform:  translate3d(0,-6px,0) rotate(40deg);
+  }
+  100%{
+    transform:  translate3d(0,-6px,0) rotate(0deg);
+  }
+}
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+}
